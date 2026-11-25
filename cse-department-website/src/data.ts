@@ -1,0 +1,280 @@
+export const faculty = [
+  {
+    id: "demo-faculty-01",
+    name: "Demo Faculty 01",
+    role: "Demo Assistant Professor",
+    expertise: "Artificial Intelligence",
+    focus: "Illustrative interests: responsible AI, applied machine learning, and human-centred computing.",
+  },
+  {
+    id: "demo-faculty-02",
+    name: "Demo Faculty 02",
+    role: "Demo Associate Professor",
+    expertise: "Data Science",
+    focus: "Illustrative interests: data visualisation, information retrieval, and applied analytics.",
+  },
+  {
+    id: "demo-faculty-03",
+    name: "Demo Faculty 03",
+    role: "Demo Assistant Professor",
+    expertise: "Cybersecurity",
+    focus: "Illustrative interests: secure software, privacy engineering, and networked systems.",
+  },
+  {
+    id: "demo-faculty-04",
+    name: "Demo Faculty 04",
+    role: "Demo Lecturer",
+    expertise: "Software Engineering",
+    focus: "Illustrative interests: developer tools, dependable systems, and software design.",
+  },
+];
+
+export const courses = [
+  { semester: 1, code: "SAMPLE 101", name: "Computational Thinking", credits: 3, type: "Foundation" },
+  { semester: 1, code: "SAMPLE 102", name: "Programming Studio I", credits: 4, type: "Practical" },
+  { semester: 1, code: "SAMPLE 103", name: "Mathematics for Computing", credits: 4, type: "Foundation" },
+  { semester: 2, code: "SAMPLE 201", name: "Data Structures", credits: 4, type: "Core" },
+  { semester: 2, code: "SAMPLE 202", name: "Digital Systems", credits: 3, type: "Core" },
+  { semester: 2, code: "SAMPLE 203", name: "Programming Studio II", credits: 3, type: "Practical" },
+  { semester: 3, code: "SAMPLE 301", name: "Algorithms", credits: 4, type: "Core" },
+  { semester: 3, code: "SAMPLE 302", name: "Database Systems", credits: 4, type: "Core" },
+  { semester: 3, code: "SAMPLE 303", name: "Computer Organisation", credits: 3, type: "Core" },
+  { semester: 4, code: "SAMPLE 401", name: "Operating Systems", credits: 4, type: "Core" },
+  { semester: 4, code: "SAMPLE 402", name: "Computer Networks", credits: 4, type: "Core" },
+  { semester: 4, code: "SAMPLE 403", name: "Software Design Studio", credits: 3, type: "Practical" },
+  { semester: 5, code: "SAMPLE 501", name: "Theory of Computation", credits: 3, type: "Core" },
+  { semester: 5, code: "SAMPLE 502", name: "Machine Learning Concepts", credits: 3, type: "Elective sample" },
+  { semester: 5, code: "SAMPLE 503", name: "Full-stack Development Lab", credits: 3, type: "Practical" },
+  { semester: 6, code: "SAMPLE 601", name: "Compiler Design", credits: 4, type: "Core" },
+  { semester: 6, code: "SAMPLE 602", name: "Cloud Systems", credits: 3, type: "Elective sample" },
+  { semester: 6, code: "SAMPLE 603", name: "Research Methods", credits: 2, type: "Seminar" },
+  { semester: 7, code: "SAMPLE 701", name: "Distributed Systems", credits: 3, type: "Elective sample" },
+  { semester: 7, code: "SAMPLE 702", name: "Security Engineering", credits: 3, type: "Elective sample" },
+  { semester: 7, code: "SAMPLE 703", name: "Capstone Project I", credits: 4, type: "Project" },
+  { semester: 8, code: "SAMPLE 801", name: "Capstone Project II", credits: 8, type: "Project" },
+  { semester: 8, code: "SAMPLE 802", name: "Technology & Society", credits: 2, type: "Seminar" },
+];
+
+export const projects = [
+  {
+    id: "campus-compass",
+    title: "Campus Compass",
+    category: "Web Development",
+    description: "A sample wayfinding concept that helps new visitors find key campus facilities.",
+    image: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=85",
+    stack: ["React", "Maps", "Accessibility"],
+    team: "Demo student team",
+    status: "Demonstration project",
+  },
+  {
+    id: "signal-garden",
+    title: "Signal Garden",
+    category: "AI / ML",
+    description: "An illustrative machine-learning interface for exploring patterns in environmental sensor data.",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1000&q=85",
+    stack: ["Python", "Data visualisation", "ML"],
+    team: "Demo student team",
+    status: "Demonstration project",
+  },
+  {
+    id: "secure-by-design",
+    title: "Secure by Design",
+    category: "Cybersecurity",
+    description: "A learning toolkit concept for introducing practical secure-coding habits.",
+    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1000&q=85",
+    stack: ["TypeScript", "Threat modelling", "Testing"],
+    team: "Demo student team",
+    status: "Demonstration project",
+  },
+  {
+    id: "tiny-forecast",
+    title: "Tiny Forecast",
+    category: "Data Science",
+    description: "A sample dashboard exploring clear, explainable time-series visualisations.",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=85",
+    stack: ["Python", "Pandas", "Charts"],
+    team: "Demo student team",
+    status: "Demonstration project",
+  },
+];
+
+export const events = [
+  {
+    id: "build-week",
+    title: "Build Week: Ideas into Interfaces",
+    date: "2027-02-18",
+    type: "Workshop",
+    venue: "Sample venue — to be confirmed",
+    description: "A demonstration event concept for collaborative prototyping, peer feedback, and accessible product design.",
+  },
+  {
+    id: "systems-salon",
+    title: "Systems Salon",
+    date: "2027-03-12",
+    type: "Seminar",
+    venue: "Sample venue — to be confirmed",
+    description: "A sample seminar format for thoughtful conversations about dependable and scalable computing.",
+  },
+  {
+    id: "open-source-day",
+    title: "Open Source Day",
+    date: "2025-11-14",
+    type: "Community",
+    venue: "Sample venue — to be confirmed",
+    description: "A demonstration event entry celebrating collaborative software and student-led learning.",
+  },
+  {
+    id: "data-stories",
+    title: "Data Stories Studio",
+    date: "2025-09-06",
+    type: "Workshop",
+    venue: "Sample venue — to be confirmed",
+    description: "A sample workshop entry on communicating data with context, care, and clarity.",
+  },
+  {
+    id: "prototype-sprint",
+    title: "Prototype Sprint",
+    date: "2027-04-08",
+    type: "Hackathon",
+    venue: "Sample venue — to be confirmed",
+    description: "A demonstration hackathon concept focused on turning a well-framed problem into a tested prototype.",
+  },
+  {
+    id: "computing-conversations",
+    title: "Computing Conversations",
+    date: "2027-05-21",
+    type: "Guest lecture",
+    venue: "Sample venue — to be confirmed",
+    description: "A placeholder guest lecture format for sharing perspectives on technology, practice, and careers.",
+  },
+];
+
+export const notices = [
+  {
+    id: "curriculum-review",
+    title: "Curriculum review — sample notice",
+    category: "Academic",
+    date: "2026-11-10",
+    summary: "A placeholder for a department academic notice. Replace this entry with verified details before publication.",
+    important: true,
+  },
+  {
+    id: "project-showcase",
+    title: "Student project showcase — sample notice",
+    category: "Events",
+    date: "2026-10-28",
+    summary: "A demonstration notice for sharing project demonstrations and student work.",
+    important: false,
+  },
+  {
+    id: "internship-board",
+    title: "Internship resource board — sample notice",
+    category: "Careers",
+    date: "2026-10-13",
+    summary: "A placeholder for verified internship resources and application guidance.",
+    important: false,
+  },
+  {
+    id: "exam-guidance",
+    title: "Examination guidance — sample notice",
+    category: "Examinations",
+    date: "2026-09-22",
+    summary: "A sample entry only. Refer to official department communications for examination information.",
+    important: false,
+  },
+  {
+    id: "student-announcement",
+    title: "Student announcements — sample notice",
+    category: "Student announcements",
+    date: "2026-09-10",
+    summary: "A demonstration space for verified student-community updates and department announcements.",
+    important: false,
+  },
+  {
+    id: "placement-resource",
+    title: "Placement preparation resources — sample notice",
+    category: "Placements",
+    date: "2026-08-26",
+    summary: "A placeholder for department-approved placement preparation resources and career guidance.",
+    important: false,
+  },
+];
+
+export const achievements = [
+  {
+    year: "2026 · sample",
+    title: "A prototype reaches the showcase",
+    detail: "Illustrative student achievement entry. Add a verified team, award, and event before publishing.",
+    category: "Student work",
+  },
+  {
+    year: "2025 · sample",
+    title: "Research poster takes shape",
+    detail: "Placeholder for a verified research publication, presentation, or faculty achievement.",
+    category: "Research",
+  },
+  {
+    year: "2024 · sample",
+    title: "A community-built solution",
+    detail: "Demonstration content showing how a student or team recognition could be presented.",
+    category: "Community",
+  },
+  {
+    year: "2024 · sample",
+    title: "A hackathon idea becomes a prototype",
+    detail: "Sample entry for a verified student hackathon result. Add the event, team, and recognition details after confirmation.",
+    category: "Hackathon",
+  },
+  {
+    year: "2023 · sample",
+    title: "A faculty contribution shared with peers",
+    detail: "Placeholder for a verified faculty publication, award, or professional contribution.",
+    category: "Faculty",
+  },
+  {
+    year: "2023 · sample",
+    title: "A student milestone worth celebrating",
+    detail: "Illustrative entry for verified academic or career achievements, with the individual’s approval.",
+    category: "Career",
+  },
+];
+
+export const clubs = [
+  {
+    name: "Code Commons",
+    focus: "Peer learning & open source",
+    description: "A demo club profile for collaborative coding sessions, friendly reviews, and shared learning.",
+    activities: ["Peer-led study", "Open-source sprints", "Project circles"],
+  },
+  {
+    name: "Human × Machine",
+    focus: "AI & responsible technology",
+    description: "A sample community profile for thoughtful exploration of machine intelligence and its impact.",
+    activities: ["Reading groups", "Prototype nights", "Ethics discussions"],
+  },
+  {
+    name: "Systems Lab",
+    focus: "Build, break, understand",
+    description: "An illustrative club entry for curious students interested in how computing systems work.",
+    activities: ["Hardware sessions", "Security basics", "Hands-on demos"],
+  },
+];
+
+export const researchAreas = [
+  "Artificial intelligence",
+  "Machine learning",
+  "Cybersecurity",
+  "Data science",
+  "Computer vision",
+  "Cloud computing",
+  "Software engineering",
+  "Internet of Things",
+];
+
+export const projectCategories = [
+  "All",
+  "AI / ML",
+  "Web Development",
+  "Cybersecurity",
+  "Data Science",
+];
