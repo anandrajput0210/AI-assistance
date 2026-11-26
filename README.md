@@ -1,33 +1,69 @@
-# Python Practice Exercises
+# AI Assistance
 
-A collection of small Python programs and requirements-writing exercises created
-for learning and practicing programming fundamentals.
+A repository of Python learning exercises and independent software projects.
+Each application is kept in its own directory so its dependencies, setup, and
+documentation stay separate.
 
-## Programs
-
-| File | Description |
-| --- | --- |
-| `promptA.py` | Calculates a student's total and average marks and reports pass or fail. |
-| `promptB.py` | Collects marks for five students, validates them, assigns grades, and prints a report. |
-| `student.py` | Collects marks for five students, assigns grades, and displays the results in a table. |
-| `avgmarks.py` | Defines and tests a function that calculates the average of validated marks. |
-| `swap.py` | Checks whether an entered number is prime. The earlier number-swapping example is commented out. |
-| `testing.py` | Demonstrates validation and category selection for a mark. |
-| `studentMS.py` | Contains the task data model, a proposed REST API contract, and a command-line task manager with JSON persistence and CRUD actions. The REST API is a design, not a running web service. |
-| `review.py` | Contains a provisional requirements draft for a proposed task-management system; it is not an implemented application. |
-
-## Requirements
-
-- Python 3
-- No third-party packages are required.
-
-## Run a program
-
-Run a script from the project directory using Python. For example:
+## Repository structure
 
 ```text
-python promptB.py
+AI-assistance/
+├── exercises/
+│   └── python/                 # Standalone Python exercises and CLI practice
+├── calculator/                 # HTML, CSS, and JavaScript calculator
+├── cse-department-website/     # React + Vite + TypeScript website
+├── question_answering_app/     # Streamlit + Gemini question-answering app
+└── student-task-manager/       # Flask REST API + Streamlit UI + SQLite
 ```
 
-Most programs ask for input in the terminal. To run a different exercise,
-replace `promptB.py` with the desired script name.
+## Python exercises
+
+See [exercises/python/README.md](exercises/python/README.md) for descriptions
+and run commands. These scripts are independent exercises, not one combined
+Python application.
+
+Example:
+
+```powershell
+python exercises/python/promptB.py
+```
+
+## Applications
+
+### Calculator
+
+A standalone browser application. Open `calculator/index.html` in a browser.
+Its HTML, CSS, and JavaScript files are kept together in `calculator/`.
+
+### BMSIT&M CSE Department Website
+
+A React, Vite, TypeScript, and Tailwind CSS website concept.
+
+```powershell
+cd cse-department-website
+npm install
+npm run dev
+```
+
+See [cse-department-website/README.md](cse-department-website/README.md)
+before publishing; the page content includes sample data that must be verified.
+
+### AI Question & Answering System
+
+A Streamlit application using Google's Gemini API. Setup, environment
+configuration, and tests are documented in
+[question_answering_app/README.md](question_answering_app/README.md).
+
+### Student Task Manager
+
+A task-management application with a Flask REST API, Streamlit interface, and
+SQLite persistence. API routes and setup instructions are documented in
+[student-task-manager/README.md](student-task-manager/README.md).
+
+## Repository conventions
+
+- Keep each independent application in its existing project directory.
+- Keep standalone programming exercises under `exercises/python/`.
+- Use each project's own dependency manifest and README.
+- Do not commit virtual environments, dependency folders, build output,
+  local databases, runtime data, or secret environment files.

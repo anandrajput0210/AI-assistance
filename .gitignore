@@ -1,4 +1,4 @@
-﻿# Python bytecode and caches
+# Python bytecode and caches
 __pycache__/
 *.py[cod]
 .pytest_cache/
@@ -21,6 +21,9 @@ env/
 *.db
 *.sqlite
 *.sqlite3
+
+# Runtime data created by the Python task-manager exercise
+/exercises/python/tasks.json
 
 # Frontend dependencies and build output
 node_modules/
